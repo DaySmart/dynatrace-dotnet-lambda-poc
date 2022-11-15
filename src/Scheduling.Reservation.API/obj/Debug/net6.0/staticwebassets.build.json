@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q2gOqW3YRiu5a9FuSML9FvKObXpeOeooDfDCUDjvhpQ=",
+  "Source": "Scheduling.Reservation.API",
+  "BasePath": "_content/Scheduling.Reservation.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

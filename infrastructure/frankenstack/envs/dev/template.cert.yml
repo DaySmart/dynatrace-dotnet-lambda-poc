@@ -1,0 +1,12 @@
+env: dev
+components:
+  - name: ds-scheduling-reservation-cert
+    provider:
+      name: cdk
+      config:
+        constructPackage: '@daysmart/cdk-multi-accont-dns'
+        constructName: HostedZoneCertificate
+        account: ${ds-scheduling-dev:aws}
+        region: 'us-west-2'
+    inputs:
+      domainName: dev.reservation.daysmart.com
