@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "6nMqEdyL8L5Q9qqdBUMpwhdYC8Z1bLKObrm9OY9SpQFt19XSCv9sCphvypAq3JuQmoRkzbRCXgVLVc6FYD8RWw==",
+  "success": true,
+  "projectFilePath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Infrastructure/Scheduling.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/kashia.xiong/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/mongodb.bson/2.17.1/mongodb.bson.2.17.1.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/mongodb.driver/2.17.1/mongodb.driver.2.17.1.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/mongodb.driver.core/2.17.1/mongodb.driver.core.2.17.1.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/mongodb.libmongocrypt/1.5.5/mongodb.libmongocrypt.1.5.5.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/kashia.xiong/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

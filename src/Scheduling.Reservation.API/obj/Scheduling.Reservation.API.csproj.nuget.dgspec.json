@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Reservation.API/Scheduling.Reservation.API.csproj": {}
+  },
+  "projects": {
+    "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/Scheduling.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/Scheduling.Application.csproj",
+        "projectName": "Scheduling.Application",
+        "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/Scheduling.Application.csproj",
+        "packagesPath": "/Users/kashia.xiong/.nuget/packages/",
+        "outputPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kashia.xiong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/Scheduling.Domain.csproj": {
+                "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/Scheduling.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kashia.xiong/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/Scheduling.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/Scheduling.Domain.csproj",
+        "projectName": "Scheduling.Domain",
+        "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/Scheduling.Domain.csproj",
+        "packagesPath": "/Users/kashia.xiong/.nuget/packages/",
+        "outputPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kashia.xiong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kashia.xiong/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Infrastructure/Scheduling.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Infrastructure/Scheduling.Infrastructure.csproj",
+        "projectName": "Scheduling.Infrastructure",
+        "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Infrastructure/Scheduling.Infrastructure.csproj",
+        "packagesPath": "/Users/kashia.xiong/.nuget/packages/",
+        "outputPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kashia.xiong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/Scheduling.Application.csproj": {
+                "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/Scheduling.Application.csproj"
+              },
+              "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/Scheduling.Domain.csproj": {
+                "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Domain/Scheduling.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kashia.xiong/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Reservation.API/Scheduling.Reservation.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Reservation.API/Scheduling.Reservation.API.csproj",
+        "projectName": "Scheduling.Reservation.API",
+        "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Reservation.API/Scheduling.Reservation.API.csproj",
+        "packagesPath": "/Users/kashia.xiong/.nuget/packages/",
+        "outputPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Reservation.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kashia.xiong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/Scheduling.Application.csproj": {
+                "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Application/Scheduling.Application.csproj"
+              },
+              "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Infrastructure/Scheduling.Infrastructure.csproj": {
+                "projectPath": "/Users/kashia.xiong/Dev/dynatrace-dotnet-lambda-poc/src/Scheduling.Infrastructure/Scheduling.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.7.2.74, )"
+            },
+            "Amazon.Lambda.AspNetCoreServer.Hosting": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Dynatrace.OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.251.1, )"
+            },
+            "Dynatrace.OpenTelemetry.Instrumentation.AwsLambda": {
+              "target": "Package",
+              "version": "[1.251.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.4.0-alpha.2, )"
+            },
+            "OpenTelemetry.Api": {
+              "target": "Package",
+              "version": "[1.4.0-alpha.2, )"
+            },
+            "OpenTelemetry.Contrib.Instrumentation.AWS": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "OpenTelemetry.Contrib.Instrumentation.AWSLambda": {
+              "target": "Package",
+              "version": "[1.1.0-beta1, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.4.0-alpha.2, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs": {
+              "target": "Package",
+              "version": "[1.4.0-alpha.2, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.0.0-rc9.6, )"
+            },
+            "OpenTelemetry.Instrumentation.AWSLambda": {
+              "target": "Package",
+              "version": "[1.1.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-rc9.6, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.0.0-rc9.6, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.osx-x64",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kashia.xiong/.dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

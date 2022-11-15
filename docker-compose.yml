@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+  db:
+    image: mongo
+    container_name: mongo-instance
+    hostname: mongo-instance
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+    ports:
+      - "27017:27017"
+  web:
+    build: .
+    restart: unless-stopped
+    environment:
+      ReservationDatabase__ConnectionString: "mongodb://root:password@mongo-instance:27017"
+    ports:
+      - "3000:80"
+    depends_on:
+      - db

@@ -1,0 +1,15 @@
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/bin/Debug/net6.0/Scheduling.Application.deps.json
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/bin/Debug/net6.0/Scheduling.Application.dll
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/bin/Debug/net6.0/Scheduling.Application.pdb
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/bin/Debug/net6.0/Scheduling.Domain.dll
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/bin/Debug/net6.0/Scheduling.Domain.pdb
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.csproj.AssemblyReference.cache
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.AssemblyInfoInputs.cache
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.AssemblyInfo.cs
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.csproj.CoreCompileInputs.cache
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.csproj.CopyComplete
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.dll
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/Scheduling.Application.pdb
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/obj/Debug/net6.0/ref/Scheduling.Application.dll
+/Users/kashia.xiong/Dev/scheduling-reservation/src/Scheduling.Application/bin/Debug/net6.0/ref/Scheduling.Application.dll

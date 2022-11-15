@@ -1,0 +1,24 @@
+env: qa
+components:
+  - name: ds-scheduling-reservation-hostedzone
+    provider:
+      name: cdk
+      config:
+        account: ${ds-scheduling-qa:aws}
+        region: us-west-2
+        constructPackage: '@daysmart/cdk-multi-accont-dns'
+        constructName: DelegatedHostedZone
+    inputs:
+      zoneName: qa.reservation.daysmart.com
+  - name: ds-scheduling-dns-ns-records
+    provider:
+      name: cdk
+      config:
+        account: ${og-legacy-main:aws}
+        region: us-east-1
+        constructPackage: '@daysmart/cdk-multi-accont-dns'
+        constructName: DelegatedNSRecord
+    inputs:
+      hostedZoneDomain: daysmart.com
+      delegatedDomainName: qa.reservation.daysmart.com
+      nameServers: ${qa:ds-scheduling-reservation-hostedzone:NameServers}
